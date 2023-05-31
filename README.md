@@ -27,4 +27,4 @@ I am not really sure of what to add to this simple application, but I am thinkin
 ## Issues
 One of the more annoying issues I have with the application is with the inability of the entry text box to wrap user input (i.e. wrap text to the next line if it reaches the end width of the box). It keeps scrolling to the right as more and more characters are input. If anyone knows how to fix it, it would be great. Also, I am sure I'm really inefficiently managing memory, so any helpful suggestions for improvement would be appreciated.
 ## Licence
-I really don't know the difference between the licenses so I just chose randomly. This really isn't production worthy code or anything so feel free to use.
+This project is under the MIT licence, more details in the LICENSE file.
