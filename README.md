@@ -4,7 +4,7 @@ A simple local task manager, where you can upload and delete tasks.
 # Overview
 An explanation of the TaskManager application, including its capabilities and how it functions.
 ## Purpose
-I working on improving my knowledge base and thought that creating a simple application with a GUI would be a good first step. I also noticed that the Nuklear documentation is kinda poor in showing how to use the Nuklear API (I mean, there are a bunch of great examples provided in the demo folder, but those were all so complicated and not very well documented in how the code works). The examples using GLFW and OpenGL were not documented at all so I hope that this project can provide a simple example on how to use Nuklear with GLFW. (I'll provide further documentation in a different file).
+I working on improving my knowledge base and thought that creating a simple application with a GUI would be a good first step. I also just wanted to provide an ultra simple example on how to use the Nuklear API, hopefully it can get added to the Git repository of Nuklear.
 ## Code
 This task manager is written in C, using [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear), [GLFW](https://www.glfw.org/), and [OpenGL](https://www.opengl.org/) to accomplish the GUI for the application. The TaskManager currently uses v.2.1 of OpenGL, as it was the latest version that my local machine supports (Apple had stopped OpenGL support way back). I used Nuklear because it was relatively easy to use, only needing a single header file to implement. I used GLFW as the windows and input framework because honestly, it was the first thing I looked at when going through the demo folder of the Nuklear github. Since TaskManager is mainly a text-based application, OpenGL was really underutilized in this project. I may update this project later to include some more things in the application that utilize the OpenGL API.
 ## Data Structure
@@ -25,6 +25,6 @@ There should exist a hidden folder .users where all the users and passwords are 
 ## Planned/Future Features
 I am not really sure of what to add to this simple application, but I am thinking of making it look more appealing that's for sure. I would like to work out the kinks in the application (described below), but it seems I am limited by the Nuklear GUI capabilities (or more likely that I have no idea how to fix them).
 ## Issues
-One of the more annoying issues I have with the application is with the inability of the entry text box to wrap user input (i.e. wrap text to the next line if it reaches the end width of the box). It keeps scrolling to the right as more and more characters are input. If anyone knows how to fix it, it would be great. Also, I am sure I'm really inefficiently managing memory, so any helpful suggestions for improvement would be appreciated.
+One of the more annoying issues I have with the application is with the inability of the entry text box to wrap user input (i.e. wrap text to the next line if it reaches the end width of the box). It keeps scrolling to the right as more and more characters are input. If anyone knows how to fix it, it would be great. Additionally, I admit that I did not read through on how to properly set the font, so I'll be updating that later on.
 ## Licence
 This project is under the MIT licence, more details in the LICENSE file.
